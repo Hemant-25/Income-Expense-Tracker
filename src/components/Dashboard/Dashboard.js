@@ -52,16 +52,16 @@ function Dashboard() {
                             ₹{Object.keys(incomes).length===0?0:Math.min(...incomes.map(item => item.amount))}
                             </p>
                             <p>
-                            ₹{Object.keys(incomes).length===0?0:Math.max(0,...incomes.map(item => item.amount))}
+                            ₹{Object.keys(incomes).length===0?0:Math.max(...incomes.map(item => item.amount))}
                             </p>
                         </div>
                         <h2 className="salary-title">Min <span>Expense</span>Max</h2>
                         <div className="salary-item2">
                             <p>
-                            ₹{Object.keys(expenses).length===0?0:Math.min(0,...expenses.map(item => item.amount))}
+                            ₹{Object.keys(expenses).length===0?0:Math.min(...expenses.map(item => item.amount))}
                             </p>
                             <p>
-                            ₹{Object.keys(expenses).length===0?0:Math.max(0,...expenses.map(item => item.amount))}
+                            ₹{Object.keys(expenses).length===0?0:Math.max(...expenses.map(item => item.amount))}
                             </p>
                         </div>
 
