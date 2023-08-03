@@ -5,13 +5,14 @@ import {MainLayout} from './styles/layout'
 import Orb from './components/Orb/orb'
 import Dashboard from './components/Dashboard/Dashboard';
 import Income from './components/Income/Income'
+
 import Expenses from './components/Expenses/Expenses';
 import Transactions from './components/Transactions/Transactions'
 
 import Navigation from "./components/Navigations/Navigation";
 function App() {
   const [active, setActive] = useState(1)
-
+  
   
   
   const displayData = () => {
