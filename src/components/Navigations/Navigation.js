@@ -53,10 +53,10 @@ const Navstyled = styled.nav`
         height: 100px;
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
         img{
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             object-fit: cover;
             background: #fcf6f9;
@@ -80,7 +80,7 @@ const Navstyled = styled.nav`
             display: grid;
             grid-template-columns: 40px auto;
             align-items: center;
-            margin: .6rem 0;
+            margin: 1rem 0;
             font-weight: 500;
             cursor: pointer;
             transition: all .4s ease-in-out;
@@ -89,7 +89,7 @@ const Navstyled = styled.nav`
             position: relative;
             i{
                 color: rgba(34, 34, 96, 0.7);
-                font-size: 1.4rem;
+                font-size: 2rem;
                 transition: all .4s ease-in-out;
             }
         }
